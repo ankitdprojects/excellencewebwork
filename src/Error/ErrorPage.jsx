@@ -16,7 +16,7 @@ const ErrorPage = () => {
             homepage.
           </p>
 
-          <NavLink to="/">
+          <NavLink to="/excellencewebwork">
             <Button>Go Back to Home</Button>
           </NavLink>
         </div>

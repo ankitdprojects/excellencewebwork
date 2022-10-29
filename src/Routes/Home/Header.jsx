@@ -9,7 +9,7 @@ const Header = () => {
   return (
     
     <MainHeader >
-        <NavLink to="/" >
+        <NavLink to="/excellencewebwork" >
             <img src="./images/logo2.png" alt='logo' className='logo' />
         </NavLink>
         <Navigation />

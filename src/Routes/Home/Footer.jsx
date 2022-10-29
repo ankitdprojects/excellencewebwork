@@ -23,7 +23,7 @@ const Footer = () => {
         <footer>
           <div className="container grid grid-four-column">
             <div className="footer-about">
-                <NavLink to='/'>
+                <NavLink to='/excellencewebwork'>
               <img src="./images/logo1.png" alt="logo" className='footer-logo'/></NavLink>
               <p className='rights-footer'>Make your business shine on the web
 </p>
