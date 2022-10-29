@@ -1,4 +1,4 @@
-import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
+import { HashRouter as Router ,Routes,Route } from 'react-router-dom'
 import React from "react";
 import Navigation from "./Navigation/Navigation.components";
 import Home from "./Routes/Home/Home.components";
@@ -42,17 +42,19 @@ const App = () => {
 
   return (
   <ThemeProvider theme={theme}>
-    <Router>
+    <Router basename="/">
       <GlobalStyle />
       <Header />
       <ScrollToTop />
+
       <Routes>
         {/* <Route path='/' element={<Navigation/>} /> */}
-        <Route exact path='/excellencewebwork' index element={<Home />}/>
+        <Route exact path='/' index element={<Home />}/>
         <Route path="/about" element={<About />} />
         <Route path="/contactus" element={<ContactUs />}/>
         <Route path="*" element={<ErrorPage />} />
         </Routes>
+        
         <Footer />
     </Router>
   </ThemeProvider>
