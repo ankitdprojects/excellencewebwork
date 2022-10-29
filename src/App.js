@@ -1,4 +1,4 @@
-import { BrowserRouter as Router,Routes,Route,HashRouter,Link } from "react-router-dom";
+import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
 import React from "react";
 import Navigation from "./Navigation/Navigation.components";
 import Home from "./Routes/Home/Home.components";
@@ -46,29 +46,14 @@ const App = () => {
       <GlobalStyle />
       <Header />
       <ScrollToTop />
-      <HashRouter basename="/">
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav>
       <Routes>
         {/* <Route path='/' element={<Navigation/>} /> */}
-        <Route exact path='/' index element={<Home />}/>
+        <Route exact path='/excellencewebwork' index element={<Home />}/>
         <Route path="/about" element={<About />} />
         <Route path="/contactus" element={<ContactUs />}/>
         <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />
-        </HashRouter>
     </Router>
   </ThemeProvider>
   );
