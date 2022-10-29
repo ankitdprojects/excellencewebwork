@@ -1,4 +1,4 @@
-import { BrowserRouter as Router,Routes,Route,HashRouter,Link,Switch } from "react-router-dom";
+import { BrowserRouter as Router,Routes,Route,HashRouter,Link } from "react-router-dom";
 import React from "react";
 import Navigation from "./Navigation/Navigation.components";
 import Home from "./Routes/Home/Home.components";
@@ -61,13 +61,11 @@ const App = () => {
           </ul>
         </nav>
       <Routes>
-      <Switch>
         {/* <Route path='/' element={<Navigation/>} /> */}
         <Route exact path='/' index element={<Home />}/>
         <Route path="/about" element={<About />} />
         <Route path="/contactus" element={<ContactUs />}/>
         <Route path="*" element={<ErrorPage />} />
-        </Switch>
         </Routes>
         <Footer />
         </HashRouter>
