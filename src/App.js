@@ -48,7 +48,7 @@ const App = () => {
       <ScrollToTop />
       <Routes>
         {/* <Route path='/' element={<Navigation/>} /> */}
-        <Route exact path='/excellencewebwork/' index element={<Home />}/>
+        <Route exact path='/excellencewebwork' index element={<Home />}/>
         <Route path="/about" element={<About />} />
         <Route path="/contactus" element={<ContactUs />}/>
         <Route path="*" element={<ErrorPage />} />
