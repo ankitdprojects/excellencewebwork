@@ -90,7 +90,7 @@ border: 1px solid #000;
       margin: 11rem 0 0rem 2rem;
     }
   
-
+  }
 `
 
 
