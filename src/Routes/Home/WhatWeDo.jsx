@@ -58,11 +58,11 @@ background-color: black;
 
 @media (max-width: ${({ theme }) => theme.media.mobile}){
     .data-img{
-        margin: 0em 0em 0em -5em;
+        margin: 0em 0em 0em -2em;
     }
 
     .data-text{
-        margin: -2em 3em 0em 0px;
+        margin: -2em 3em 0em 8rem;
     }
 }
 

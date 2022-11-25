@@ -171,9 +171,15 @@ footer {
     footer {
       padding: 9rem 0 9rem 0;
     }
+    .rights-footer{
+      margin: 1rem;
+    }
 
     .footer-bottom--section {
       padding-top: 4.8rem;
+    }
+    .footer-contact{
+      margin: 1rem;
     }
   }
 

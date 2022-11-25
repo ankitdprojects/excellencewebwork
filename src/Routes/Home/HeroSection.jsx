@@ -87,7 +87,7 @@ border: 1px solid #000;
     }
 
     .wide{
-      margin: 11rem 0 0rem 2rem;
+      margin: 11rem 0 0rem 5rem;
     }
   
   }

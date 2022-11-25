@@ -68,7 +68,19 @@ color: white;
 .btn{
     margin: 1rem 5rem 0 0;
 }
-
+@media (max-width: ${({ theme }) => theme.media.mobile}){
+  .grid{
+    padding-bottom: 30rem;
+    width: 30rem;
+    margin-right: 30rem;
+  }
+  .col-1{
+    width: 4rem;
+  }
+  .col-2{
+    width: 25rem;
+  }
+}
 
 
 `
