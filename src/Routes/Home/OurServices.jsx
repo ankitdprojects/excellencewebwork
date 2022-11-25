@@ -143,6 +143,14 @@ p{
 }
 
 
+@media (max-width: ${({ theme }) => theme.media.mobile}){
+    .card{
+        margin-left: 15rem;
+        margin-top: 10rem;
+    }
+}
+
+
 `
 
 export default OurServices
