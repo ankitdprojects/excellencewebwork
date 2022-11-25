@@ -72,7 +72,9 @@ color: white;
   .grid{
     padding-bottom: 30rem;
     width: 30rem;
-    margin-right: 30rem;
+  }
+  .contact-short{
+    width: -6rem;
   }
   .col-1{
     width: 4rem;
